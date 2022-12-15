@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-12T12:09:53 IST" name="Suite" finished-at="2022-12-12T12:12:09 IST" duration-ms="135609">
+    <groups>
+    </groups>
+    <test started-at="2022-12-12T12:09:53 IST" name="TestOnChrome" finished-at="2022-12-12T12:12:09 IST" duration-ms="135609">
+      <class name="testCases.TestCase_01_SearchForItems">
+        <test-method is-config="true" signature="launchUrl(java.lang.String)[pri:0, instance:testCases.TestCase_01_SearchForItems@5af3afd9]" started-at="2022-12-12T12:09:53 IST" name="launchUrl" finished-at="2022-12-12T12:10:15 IST" duration-ms="21684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="searchForItems()[pri:0, instance:testCases.TestCase_01_SearchForItems@5af3afd9]" started-at="2022-12-12T12:10:15 IST" name="searchForItems" finished-at="2022-12-12T12:10:24 IST" duration-ms="8822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase_01_SearchForItems@5af3afd9]" started-at="2022-12-12T12:10:24 IST" name="tearDown" finished-at="2022-12-12T12:10:24 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCase_01_SearchForItems -->
+      <class name="testCases.TestCase_02_SelectLanguageToDisplay">
+        <test-method is-config="true" signature="launchUrl(java.lang.String)[pri:0, instance:testCases.TestCase_02_SelectLanguageToDisplay@79e2c065]" started-at="2022-12-12T12:10:24 IST" name="launchUrl" finished-at="2022-12-12T12:10:38 IST" duration-ms="13042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="selectLanguage()[pri:0, instance:testCases.TestCase_02_SelectLanguageToDisplay@79e2c065]" started-at="2022-12-12T12:10:38 IST" name="selectLanguage" finished-at="2022-12-12T12:10:40 IST" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLanguage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase_02_SelectLanguageToDisplay@79e2c065]" started-at="2022-12-12T12:10:40 IST" name="tearDown" finished-at="2022-12-12T12:10:41 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCase_02_SelectLanguageToDisplay -->
+      <class name="testCases.TestCase_04_AddItemToCart">
+        <test-method is-config="true" signature="launchUrl(java.lang.String)[pri:0, instance:testCases.TestCase_04_AddItemToCart@35cabb2a]" started-at="2022-12-12T12:10:58 IST" name="launchUrl" finished-at="2022-12-12T12:11:09 IST" duration-ms="10323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="addWomenClothingItemToCart()[pri:0, instance:testCases.TestCase_04_AddItemToCart@35cabb2a]" started-at="2022-12-12T12:11:09 IST" name="addWomenClothingItemToCart" finished-at="2022-12-12T12:12:08 IST" duration-ms="59131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWomenClothingItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase_04_AddItemToCart@35cabb2a]" started-at="2022-12-12T12:12:08 IST" name="tearDown" finished-at="2022-12-12T12:12:09 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCase_04_AddItemToCart -->
+      <class name="testCases.TestCase_03_CreateAccount">
+        <test-method is-config="true" signature="launchUrl(java.lang.String)[pri:0, instance:testCases.TestCase_03_CreateAccount@3a93b025]" started-at="2022-12-12T12:10:41 IST" name="launchUrl" finished-at="2022-12-12T12:10:53 IST" duration-ms="11860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="createAccountForNewUser()[pri:0, instance:testCases.TestCase_03_CreateAccount@3a93b025]" started-at="2022-12-12T12:10:53 IST" name="createAccountForNewUser" finished-at="2022-12-12T12:10:58 IST" duration-ms="5303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountForNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestCase_03_CreateAccount@3a93b025]" started-at="2022-12-12T12:10:58 IST" name="tearDown" finished-at="2022-12-12T12:10:58 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestCase_03_CreateAccount -->
+    </test> <!-- TestOnChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

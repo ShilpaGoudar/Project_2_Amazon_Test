@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestOnChrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testCases.TestCase_04_AddItemToCart">
+        <methods>
+          <include name="launchUrl"/>
+          <include name="tearDown"/>
+          <include name="addWomenClothingItemToCart"/>
+        </methods>
+      </class> <!-- testCases.TestCase_04_AddItemToCart -->
+    </classes>
+  </test> <!-- TestOnChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

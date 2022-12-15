@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+  <test name="TestOnChrome">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+   	  <class name="testCases.TestCase_01_SearchForItems"/>
+  	  <class name="testCases.TestCase_02_SelectLanguageToDisplay"/>
+  	  <class name="testCases.TestCase_03_CreateAccount"/>
+  	  <class name="testCases.TestCase_04_AddItemToCart"/>
+    </classes>
+  </test> 
+</suite>
